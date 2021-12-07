@@ -1,0 +1,22 @@
+.menu-list{
+    min-height: 500px;
+    max-height: 700px;
+    padding: 20px 10px;
+}
+.menu-list__btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list__btn{
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-green);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 150px;
+    padding: 8px 10px;
+}
+.menu-list__btn:hover{
+    box-shadow: 0 0 0 3px rgb(0, 105, 108);
+}

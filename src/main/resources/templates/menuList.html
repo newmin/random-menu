@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{/template::frame(~{::title},~{::main},_)}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴목록</title>
+</head>
+<body>
+    <main>
+        <section class="menu-list">
+            <div class="menu-list__btns">
+                <button class="menu-list__btn">수정하기</button>
+                <button class="menu-list__btn">돌아가기</button>
+            </div>
+            <ul>
+                <li class="menu-list__li">th:each="li : ${DB연동 후 저장된 목록 불러오기}</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

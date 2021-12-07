@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+    min-height: 500px;
+}
+.menu__row{
+    display: flex;
+}
+.menu__text{
+    font-size: 25px;
+    font-weight: 400;
+}
+.menu__input{
+    width: 50px;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.menu__btn{
+    background-color: var(--color-green);
+    color: white;
+    border: none;
+    padding: 5px 0px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu__btn:hover{
+    box-shadow: 0 0 0 3px var(--color-darkgreen);
+}
